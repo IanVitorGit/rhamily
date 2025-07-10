@@ -24,7 +24,7 @@
 
         .overlay {
             background-color: rgba(0, 0, 0, 0.7); /* Sobreposição mais escura */
-            padding: 60px 80px;  /* Aumentando o padding para fazer a área maior */
+            padding: 80px 70px;  /* Diminuindo o padding para reduzir o tamanho */
             border-radius: 25px;  /* Arredondando mais as bordas */
             text-align: center;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
@@ -33,19 +33,19 @@
             align-items: center;
             justify-content: center;
             width: 90%; /* Tornando a largura mais flexível */
-            max-width: 900px; /* Aumentando a largura máxima */
-            height: 100%; /* Aumentando a altura do fundo */
-            margin-top: -50px; /* Ajustando o topo para mover a área mais para cima */
+            max-width: 800px; /* Aumentando a largura máxima, mas não muito */
+            height: auto; /* Ajustando a altura do fundo */
+            margin-top: -30px; /* Movendo a área para cima */
         }
 
         /* Wrapper para a imagem do perfil */
         .profile-pic-wrapper {
-            width: 300px;  /* Tamanho maior da imagem */
-            height: 300px;  /* Tamanho maior da imagem */
+            width: 250px;  /* Tamanho ajustado da imagem */
+            height: 250px;  /* Tamanho ajustado da imagem */
             border-radius: 50%;  /* Tornar circular */
             overflow: hidden;
             border: 5px solid #fff;
-            margin-bottom: 50px;  /* Aumentando o espaço abaixo da imagem */
+            margin-bottom: 40px;  /* Aumentando o espaço abaixo da imagem */
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Sombra mais forte */
             transition: transform 0.3s ease-in-out; /* Efeito de zoom suave */
         }
@@ -61,7 +61,7 @@
         }
 
         h1 {
-            font-size: 70px;  /* Tamanho ainda maior para o título */
+            font-size: 60px;  /* Tamanho ainda maior para o título */
             font-weight: bold;
             color: #fff;
             margin: 30px 0;
@@ -70,7 +70,7 @@
         }
 
         p {
-            font-size: 30px;  /* Fonte ainda maior para a descrição */
+            font-size: 28px;  /* Fonte ajustada para a descrição */
             color: #ccc;
             margin-bottom: 50px;  /* Aumentando o espaço abaixo do parágrafo */
             font-style: italic;
@@ -78,12 +78,12 @@
 
         /* Estilos para o botão */
         .btn {
-            padding: 60px 150px;  /* Botão bem maior */
+            padding: 50px 120px;  /* Botão bem maior */
             background-color: rgb(0, 0, 0);
             color: white;
             border: none;
             border-radius: 40px;
-            font-size: 50px;  /* Fonte do botão bem maior */
+            font-size: 45px;  /* Fonte do botão bem maior */
             cursor: pointer;
             transition: all 0.3s ease-in-out;
             box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
@@ -98,14 +98,14 @@
         /* Estilos responsivos */
         @media screen and (max-width: 600px) {
             .overlay {
-                padding: 60px 40px; /* Menos espaço nas telas menores */
+                padding: 40px 30px; /* Menos espaço nas telas menores */
                 width: 95%; /* Ajustando a largura para telas menores */
-                margin-top: -20px; /* Ajustando o topo para telas menores */
+                margin-top: -10px; /* Ajustando o topo para telas menores */
             }
 
             .profile-pic-wrapper {
-                width: 240px;
-                height: 240px;
+                width: 200px;
+                height: 200px;
             }
 
             h1 {
@@ -113,7 +113,7 @@
             }
 
             .btn {
-                padding: 40px 110px;
+                padding: 30px 100px;
                 font-size: 36px; /* Fonte um pouco menor em celulares */
             }
 
